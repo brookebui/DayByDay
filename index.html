@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day By Day.</title>
+    <link rel="icon" href= "DayByDay_icon.jpeg">
+   
+    <link href="https://fonts.cdnfonts.com/css/cm-tiempo" rel="stylesheet">
+    <link rel="stylesheet" href="DayByDay.css">
+   
+
+</head>
+<body>
+    <div id="splash">
+        <h1 class = "fade-in">Day By Day.</h1>
+    </div>
+    <div class="header">
+        <h1>Day By Day.</h1>
+      </div>
+        
+        <div class="container">
+            <div class="column calendar">
+                <!-- Calendar content -->
+                <h1 id="title">Month</h1>
+                <h2 id="subtitle">Monthly Habit Tracker</h2>
+                <div id = "calendarContainer">
+                    <div id = "calendarDiv">
+                        
+                        <div id = "calendarHeading">
+                            <p id = "habitTitle"> Click to Set Habit</p>
+                            <p id="totalDays"> 0/31</p>
+            
+                        </div>
+            
+                    <div id ="calendarContent">
+                        <div id = "tracker">
+                                <div class = "days">
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                    <div class ="day">1</div>
+                                </div>
+                            <div class = "days">
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                            </div>
+                            <div class = "days">
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                            </div>
+                            <div class = "days">
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                            </div>
+                            <div class = "days">
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                                <div class ="day">1</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id = "reset">Reset</button>
+            </div>
+            
+            <!-- Journal content -->
+            <div class="column journal">
+                <div class="journal-container">
+                    <h1 id = "journal-title"> ⋆｡˚ Journal  ⋆｡˚</h1>
+                    <textarea id="journal-entry" class="journal-textarea" placeholder="Write your entry here..."></textarea>
+                    <button id="save-entry">Save Entry</button>
+                    
+                    
+                  </div>
+            </div>
+
+            <!-- Entries content -->
+            <div class="column empty-column">
+                <h1 id = "entries-title"> ⋆｡˚ Entries ⋆｡˚ </h1>
+                <div id="entries-container"></div>
+                <button id = "reset-entry">Reset Entries</button>
+            </div>
+        </div>
+    
+      <script src="journal.js"></script>
+
+    <script src="habittracker.js"></script>
+    <script src = "splash.js"></script>
+</body>
+
+</html>
